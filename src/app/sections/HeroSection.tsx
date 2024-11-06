@@ -12,7 +12,7 @@ export default function HeroSection() {
     console.log('hello there sexy');
   }
   return (
-    <div className='flex items-center justify-center bg-conic-gradient bg-full h-screen'>
+    <div className='flex items-center justify-center bg-white bg-full h-screen'>
       <div className="grid grid-cols-1 lg:grid-cols-2  max-w-7xl px-4">
         {/* First Image - Always visible */}
         <div className="w-full block">
@@ -39,7 +39,7 @@ export default function HeroSection() {
         </div>
       </div>
     
-      <div className='absolute flex flex-col items-center top-[80%] gap-4'>
+      {/* <div className='absolute flex flex-col items-center top-[80%] gap-4'>
         <div className='font-extrabold text-3xl text-black bg-white bg-opacity-70 p-2 w-96 text-center
 
         '>
@@ -52,7 +52,7 @@ export default function HeroSection() {
         ' onClick={handleClick}>
           ver estilos
         </button>
-      </div>
+      </div> */}
     </div>
   )
 }

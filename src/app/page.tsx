@@ -2,6 +2,7 @@ import { prisma } from '@/prisma';
 import Header from "./sections/Header";
 import HeroSection from "./sections/HeroSection";
 import Carousel from './sections/Carousel';
+import SportsSection from './sections/SportsSection';
 
 export default async function Home() {
 
@@ -21,7 +22,13 @@ export default async function Home() {
   return (
     <>
       <main className="flex flex-col ">
+
+      
       <Header></Header>
+
+      <SportsSection/>
+
+      
       <HeroSection></HeroSection>
       {products.length > 0 ? (
           <Carousel products={products}></Carousel>

@@ -91,7 +91,7 @@ export default function Carousel({products}: CarouselProps) {
 
 
   return (
-    <div id='main'  className='h-screen w-full bg-carousel-gradient bg-full flex justify-center items-center relative'>
+    <div id='main'  className='h-screen w-full bg-white bg-full flex justify-center items-center relative'>
       {/* */}
       <div id='wrapper' 
         
